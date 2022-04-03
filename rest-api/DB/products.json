@@ -1,0 +1,1357 @@
+[
+{
+  "id": "gracoEvoStroller",
+  "name": "Graco Evo Stroller",  
+  "primary_category_id": {
+  	"$oid": "623f203842eb4bd451aca918"
+  },
+  "description": "Junior Baby 0+ Car seat  is not included in the rental price (You can add it from Car seats category to your cart)!",
+  "features": [
+		{
+			"descript": "Secure and adjustable 5 point harness that grows with your child"
+		},
+		{
+			"descript": "Suitable from birth to approx. 3 years (0- 15kg)"
+		},
+		{
+			"descript": "Lightweight compact chassis"
+		},
+		{ 
+			"descript": "Easy removable, fully washable and a seat liner (included)"
+		}
+   ],
+  "technical": {
+		"weight": 6.5,
+		"weight_unit": "kg",
+		"dimensions": {
+			"length": 86,
+			"weight": 60,
+			"height": 102
+		},
+		"dimensions_unit": "cm",
+		"folded": {
+			"length": 41,
+			"weight": 52,
+			"height": 102
+		},
+		"folded_unit": "cm"
+  },
+  "price": 9.00,
+  "currency": "EUR",
+  "accessories": [
+	{
+		"name": "Mosquito net",
+		"price": 1.00
+	},
+	{
+		"name": "board toddler", 
+		"price": 10.00
+	},
+	{
+		"name": "raincover",
+		"price": 1.00
+	},
+	{
+		"name": "baby pram bag",
+		"price": 3.00
+	}
+  ],
+  "rental_period": [
+	  {
+		"start_period": "18/03/2022",
+		"end_period":	"25/03/2022"
+	  },
+	  {
+		"start_period": "05/04/2022",
+		"end_period":	"07/04/2022"
+	  }
+  ],
+  "deposit": 40.00,
+  "images": [
+	{
+		"alt": "Graco Evo Stroller",
+		"link": "assets/products/GracoEvoStroller_1.jpg",
+		"title": "Graco Evo Stroller"
+	},
+	{
+		"alt": "Graco Evo Stroller",
+		"link": "assets/products/GracoEvoStroller_2.jpg",
+		"title": "Graco Evo Stroller"
+	},
+	{
+		"alt": "Graco Evo Stroller",
+		"link": "assets/products/GracoEvoStroller_3.jpg",
+		"title": "Graco Evo Stroller"
+	}
+  ]
+},
+{
+ "id": "britaxBAgile",
+  "name": "Britax B- Agile 4 Stroller",  
+  "primary_category_id": {
+	"$oid": "623f203842eb4bd451aca918"
+   },
+  "description": "",
+  "features": [
+		{
+			"descript": "Easy fold- one-handed pull for an ultra-easy fold"
+		},
+		{
+			"descript": "Lightweight aluminum chassis"
+		},
+		{
+			"descript": "Smooth ride - lockable swivel front wheels"
+		},
+		{
+			"descript": "Flexibility from newborn- multi-position recline including lay-flat"
+		},
+		{
+			"descript": "Storage built-in - spacious pocket in canopy and under-seat basket"
+		},
+		{
+			"descript": "Travel system - option to use as a travel system with CLICK & GO® receivers available separately, carrycot and infant carrier"
+		}
+	],
+  "technical": {
+		"weight": 8,
+		"weight_unit": "kg",
+		"dimensions": {
+			"length": 98,
+			"weight": 57,
+			"height": 100
+		},
+		"dimensions_unit": "cm",
+		"folded": {
+			"length": 71,
+			"weight": 58,
+			"height": 30
+		},
+		"folded_unit": "cm"
+  },
+  "price": 10.00,
+  "currency": "EUR",
+  "accessories": [
+	{
+		"name": "Mosquito net",
+		"price": 1.00
+	},
+	{
+		"name": "Portbebe Britax", 
+		"price": 5.00
+	},
+	{
+		"name": "Board toddler",
+		"price": 10.00
+	},
+	{
+		"name": "Raincover",
+		"price": 1.00
+	},
+	{
+		"name": "Organiser Britax",
+		"price": 3.00
+	}
+  ],  
+  "reservation": false,
+  "rental_period": [],
+  "deposit": 50.00,
+  "images": [
+	{
+		"alt": "Britax B- Agile 4 Stroller",
+		"link": "assets/products/Britax B- Agile4_1.jpg",
+		"title": "Britax B- Agile 4 Stroller"
+	},
+	{
+		"alt": "Graco Evo Stroller",
+		"link": "assets/products/Britax B- Agile4_2.jpg",
+		"title": "Britax B- Agile 4 Stroller"
+	}
+  ]
+},
+{
+  "id": "myBabyPushchair",
+  "name": "My baby Pushchair",  
+  "primary_category_id": {
+	"$oid": "623f203842eb4bd451aca918"
+   },
+  "description": "",
+  "features": [
+		{
+			"descript": "Lightweight aluminum frame"
+		},
+		{
+			"descript": "Robust and reliable construction"
+		},
+		{
+			"descript": "Multi-position back - 4 positions"
+		},
+		{ 
+			"descript": "5 - point safety belt pads"
+		},
+		{ 
+			"descript": "100% linen material"
+		},
+		{ 
+			"descript": "Brake lock both rear wheels"
+		},
+		{ 
+			"descript": "Rotating 360 degrees front wheels"
+		},
+		{ 
+			"descript": "Easy folding mechanism of the stroller"
+		},
+		{ 
+			"descript": "Suitable for children weighing up to 15 kg"
+		}
+   ],
+  "technical": {
+		"weight": 8,
+		"weight_unit": "kg",
+		"dimensions": {
+			"length": 102,
+			"weight": 78,
+			"height": 68
+		},
+		"dimensions_unit": "cm",
+		"folded": {
+			"length": 102,
+			"weight": 27,
+			"height": 39
+		},
+		"folded_unit": "cm"
+  },
+  "price": 13.00,
+  "currency": "EUR",
+  "accessories": [
+	{
+		"name": "Mosquito net",
+		"price": 1.00
+	},
+	{
+		"name": "board toddler", 
+		"price": 10.00
+	},
+	{
+		"name": "raincover",
+		"price": 1.00
+	}
+  ],
+  "rental_period": [
+	{
+		"start_period": "15/03/2022",
+		"end_period":	"06/04/2022"
+	},
+	{
+		"start_period": "11/03/2022",
+		"end_period":	"14/03/2022"
+	},
+	{
+		"start_period": "10/04/2022",
+		"end_period":	"15/04/2022"
+	},
+	{
+		"start_period": "18/04/2022",
+		"end_period":	"20/04/2022"
+	},
+   ],
+  "deposit": 20.00,
+  "images": [
+	{
+		"alt": "My baby Pushchair",
+		"link": "assets/products/pushchair_1.jpg",
+		"title": "My baby Pushchair"
+	},
+	{
+		"alt": "My baby Pushchair",
+		"link": "assets/products/pushchair_2.jpg",
+		"title": "My baby Pushchair"
+	},
+	{
+		"alt": "My baby Pushchair",
+		"link": "assets/products/pushchair_3.jpg",
+		"title": "My baby Pushchair"
+	}
+  ]
+},
+{
+  "id": "chiccoEchoTwin",
+  "name": "Chicco Echo Twin Stroller",  
+  "primary_category_id": {
+	"$oid": "623f203842eb4bd451aca918"
+   },
+  "description": "Chicco Echo Stroller is designed for twins or siblings. It provides comfort to children from newborns to toddlers. One of the main advantages is that this stroller is very compact and it fits in the most of car`s trunks.",
+  "features": [
+		{
+			"descript": "Easy to fold, umbrella closing system, comfortable handle"
+		},
+		{
+			"descript": "Comfort from day one – 4-position seat recline including almost lay-flat"
+		},
+		{
+			"descript": "Highly maneuverable – lockable swivel front wheels"
+		},
+		{ 
+			"descript": "Fits through a standard doorway"
+		},
+		{ 
+			"descript": "Easy steer – two soft handles"
+		},
+		{ 
+			"descript": "Wightweight aluminium frame"
+		},
+		{ 
+			"descript": "5- point harness"
+		}
+   ],
+  "technical": {
+		"weight": 13.4,
+		"weight_unit": "kg",
+		"dimensions": {
+			"length": 87,
+			"weight": 65,
+			"height": 110
+		},
+		"dimensions_unit": "cm",
+		"folded": {
+			"length": 45,
+			"weight": 35,
+			"height": 108
+		},
+		"folded_unit": "cm"
+  },
+  "price": 13.00,
+  "currency": "EUR",
+  "accessories": [
+	{
+		"name": "Mosquito net",
+		"price": 1.00
+	},
+	{
+		"name": "Baby pram bag", 
+		"price": 3.00
+	},
+	{
+		"name": "raincover",
+		"price": 1.00
+	}
+  ],
+  "rental_period": [
+	{
+		"start_period": "15/03/2022",
+		"end_period":	"06/04/2022"
+	},
+	{
+		"start_period": "10/04/2022",
+		"end_period":	"16/04/2022"
+	}
+   ],
+  "deposit": 20.00,
+  "images": [
+	{
+		"alt": "My baby Pushchair",
+		"link": "assets/products/pushchair_1.jpg",
+		"title": "My baby Pushchair"
+	},
+	{
+		"alt": "My baby Pushchair",
+		"link": "assets/products/pushchair_2.jpg",
+		"title": "My baby Pushchair"
+	},
+	{
+		"alt": "My baby Pushchair",
+		"link": "assets/products/pushchair_3.jpg",
+		"title": "My baby Pushchair"
+	}
+  ],
+  "instructions": "https://www.youtube.com/watch?v=MFvnejJS5ZQ"
+},
+{
+  "id": "babyCotBabymoov",
+  "name": "Baby Cot Babymoov Sweet Night",  
+  "primary_category_id": {
+	"$oid": "623f203842eb4bd451aca919"
+   },
+  "description": "",
+  "features": [
+		{
+			"descript": "Travel cot and play frame (zipper window and 2 ventilated mesh)"
+		},
+		{
+			"descript": "Safe: 7 feet including 2 self-locking wheels for a perfect stability"
+		},
+		{
+			"descript": "Ultra-compact folding"
+		},
+		{ 
+			"descript": "Comfort mattress"
+		},
+		{ 
+			"descript": "Easy carrying bag + 2 handles and wheels"
+		},
+		{ 
+			"descript": "2 ventilated meshes and a zipper window"
+		}
+   ],
+  "technical": {
+		"weight": 9,
+		"weight_unit": "kg",
+		"dimensions": {
+			"length": 123,
+			"weight": 64,
+			"height": 78
+		},
+		"dimensions_unit": "cm",
+		"folded": {
+			"length": 78,
+			"weight": 22,
+			"height": 22
+		},
+		"folded_unit": "cm"
+  },
+  "price": 7.00,
+  "currency": "EUR",
+  "accessories": [
+	{
+		"name": "Mattress",
+		"price": 2.00
+	},
+	{
+		"name": "Baby sleeping bag", 
+		"price": 1.00
+	},
+	{
+		"name": "Bed sheets",
+		"price": 1.00
+	},
+	{
+		"name": "Blanket",
+		"price": 1.00
+	},
+	{
+		"name": "Mobile projector",
+		"price": 10.00
+	}
+  ],
+  "rental_period": [],
+  "deposit": 15.00,
+  "images": [
+	{
+		"alt": "Baby Cot Babymoov Sweet Night",
+		"link": "assets/products/BabyCotBabymoovSweetNight_1.jpg",
+		"title": "Baby Cot Babymoov Sweet Night"
+	},
+	{
+		"alt": "Baby Cot Babymoov Sweet Night",
+		"link": "assets/products/BabyCotBabymoovSweetNight_2.jpg",
+		"title": "Baby Cot Babymoov Sweet Night"
+	},
+	{
+		"alt": "Baby Cot Babymoov Sweet Night",
+		"link": "assets/products/BabyCotBabymoovSweetNight_3.jpg",
+		"title": "Baby Cot Babymoov Sweet Night"
+	}
+  ]
+},
+{
+  "id": "travelcotHauck",
+  "name": "Travelcot Hauck Babycenter Bear",  
+  "primary_category_id": {
+	"$oid": "623f203842eb4bd451aca919"
+   },
+  "description": "",
+  "features": [
+		{
+			"descript": "The remarkable high-class travel cot BabyCenter. Easy travelling with a baby"
+		},
+		{
+			"descript": "The set includes a second floor, a changing table, an accessory tray, a mobile, a practical carrying bag"
+		},
+		{
+			"descript": "The mobile with cute figures and built-in music box puts your baby gently to sleep"
+		},
+		{ 
+			"descript": "Thanks to the second floor, you can lay your baby down in a back-friendly manner"
+		},
+		{ 
+			"descript": "The cot can be moved around easily and without any problems thanks to the two wheels. It can be built up and folded down in only a few simple steps and can be stored space- saving"
+		}
+   ],
+  "technical": {
+		"weight": 15,
+		"weight_unit": "kg",
+		"dimensions": {
+			"length": 129,
+			"weight": 69,
+			"height": 83
+		},
+		"dimensions_unit": "cm",
+		"folded": {
+			"length": 79,
+			"weight": 32,
+			"height": 32
+		},
+		"folded_unit": "cm"
+  },
+  "price": 14.00,
+  "currency": "EUR",
+  "accessories": [
+	{
+		"name": "Mattress",
+		"price": 2.00
+	},
+	{
+		"name": "Baby sleeping bag", 
+		"price": 1.00
+	}
+  ],
+  "rental_period": [
+	  {
+			"start_period": "10/04/2022",
+			"end_period":	"13/04/2022"
+	  }
+  ],
+  "deposit": 20.00,
+  "images": [
+	{
+		"alt": "Travelcot Hauck Babycenter Bear",
+		"link": "assets/products/TravelcotHauckBabycenterBear_1.jpg",
+		"title": "Travelcot Hauck Babycenter Bear"
+	},
+	{
+		"alt": "Travelcot Hauck Babycenter Bear",
+		"link": "assets/products/TravelcotHauckBabycenterBear_2.jpg",
+		"title": "Travelcot Hauck Babycenter Bear"
+	},
+	{
+		"alt": "Travelcot Hauck Babycenter Bear",
+		"link": "assets/products/TravelcotHauckBabycenterBear_3.jpg",
+		"title": "Travelcot Hauck Babycenter Bear"
+	}
+  ]
+},
+{
+  "id": "babycotChicco",
+  "name": "Babycot Chicco Next 2",  
+  "primary_category_id": {
+	"$oid": "623f203842eb4bd451aca919"
+   },
+  "description": "",
+  "features": [
+		{
+			"descript": " Co-Sleeping crib that promotes side-sleeping and allows you to sleep close to your child"
+		},
+		{
+			"descript": "Can be used as a normal crib as baby grows"
+		},
+		{
+			"descript": "Suitable from Birth to 6-Months/9kg or until baby can pull themselves into an upright position"
+		},
+		{ 
+			"descript": "Light and easy to transport and includes a travel bag"
+		},
+		{ 
+			"descript": "Adjustable height with an inclinable base"
+		}
+   ],
+  "technical": {
+		"weight": 9,
+		"weight_unit": "kg",
+		"dimensions": {
+			"length": 81,
+			"weight": 93,
+			"height": 69
+		},
+		"dimensions_unit": "cm",
+		"folded": {
+			"length": 95,
+			"weight": 15,
+			"height": 30
+		},
+		"folded_unit": "cm"
+  },
+  "price": 30.00,
+  "currency": "EUR",
+  "accessories": [
+	{
+		"name": "Blanket",
+		"price": 2.00
+	},
+	{
+		"name": "Mobile projector", 
+		"price": 10.00
+	}
+  ],
+  "rental_period": [
+	{
+		"start_period": "10/04/2022",
+		"end_period":	"13/04/2022"
+	},
+	{
+		"start_period": "20/04/2022",
+		"end_period": "25/04/2022"
+	},
+	{
+		"start_period": "21/06/2022",
+		"end_period": "31/06/2022"
+	}
+   ],
+  "deposit": 75.00,
+  "images": [
+	{
+		"alt": "Babycot Chicco Next 2",
+		"link": "assets/products/BabycotChiccoNext2_1.jpg",
+		"title": "Babycot Chicco Next 2"
+	},
+	{
+		"alt": "Babycot Chicco Next 2",
+		"link": "assets/products/BabycotChiccoNext2_2.jpg",
+		"title": "Babycot Chicco Next 2"
+	},
+	{
+		"alt": "Babycot Chicco Next 2",
+		"link": "assets/products/BabycotChiccoNext2_3.jpg",
+		"title": "Babycot Chicco Next 2"
+	}
+  ]
+},
+{
+  "id": "babyMixWalker",
+  "name": "Baby Mix Walker",  
+  "primary_category_id": {
+	"$oid": "623f203842eb4bd451aca91a"
+   },
+  "description": "",
+  "features": [
+		{
+			"descript": "Silicone self-locking wheels"
+		},
+		{
+			"descript": "Adjustable seat height - 3 positions"
+		},
+		{
+			"descript": "The seat can be removed so that the child can walk, leaning on the walker"
+		},
+		{ 
+			"descript": "Funny tray with music, lights and toys"
+		},
+		{ 
+			"descript": "The tray can be removed"
+		}
+   ],
+  "technical": {
+		"weight": 3.5,
+		"weight_unit": "kg",
+		"folded": {
+			"length": 95,
+			"weight": 15,
+			"height": 30
+		},
+		"folded_unit": "cm"
+  },
+  "price": 6.00,
+  "currency": "EUR",
+  "rental_period": [
+	{
+		"start_period": "10/04/2022",
+		"end_period":	"13/04/2022"
+	},
+	{
+		"start_period": "20/04/2022",
+		"end_period": "25/04/2022"
+	},
+	{
+		"start_period": "21/06/2022",
+		"end_period": "31/06/2022"
+	}
+   ],
+  "deposit": 20.00,
+  "images": [
+	{
+		"alt": "Baby Mix Walker",
+		"link": "assets/products/BabyMixWalker_1.jpg",
+		"title": "Baby Mix Walker"
+	}
+  ]
+},
+{
+  "id": "fisherPriceBouncer",
+  "name": "Fisher Price Bouncer Rainforest Friends",  
+  "primary_category_id": {
+	"$oid": "623f203842eb4bd451aca91a"
+   },
+  "description": "",
+  "features": [
+		{
+			"descript": "Use from infant to toddler- up to 18 kg"
+		},
+		{
+			"descript": "Fold-out kickstand & reclining seat for feeding or napping"
+		},
+		{
+			"descript": "Two removable, linkable monkey toys with rollerball & clacker beads"
+		},
+		{ 
+			"descript": "Deep cradle seat with calming vibrations soothes younger babies"
+		},
+		{ 
+			"descript": "Toy bar easily removes for older babies to sit & play"
+		},
+		{ 
+			"descript": "Easy conversion to toddler rocker"
+		},
+		{ 
+			"descript": "Removable, machine washable pad"
+		},
+		{ 
+			"descript": "Secure, three-point restraint"
+		}
+   ],
+  "technical": {
+		"weight": 5,
+		"weight_unit": "kg",
+		"folded": {
+			"length": 95,
+			"weight": 15,
+			"height": 30
+		},
+		"folded_unit": "cm"
+  },
+  "price": 7.00,
+  "currency": "EUR",
+  "rental_period": [
+	{
+		"start_period": "10/04/2022",
+		"end_period":	"13/04/2022"
+	}
+   ],
+  "deposit": 25.00,
+  "images": [
+	{
+		"alt": "Fisher Price Bouncer Rainforest Friends",
+		"link": "assets/products/FisherPriceBouncerRainforestFriends_1.jpg",
+		"title": "Fisher Price Bouncer Rainforest Friends"
+	}
+  ]
+},
+{
+  "id": "brightStartsSwing",
+  "name": "Bright Starts Swing Comfort and Harmony Elepaloo",  
+  "primary_category_id": {
+	"$oid": "623f203842eb4bd451aca91a"
+   },
+  "description": "",
+  "features": [
+		{
+			"descript": "From birth to 9 kg child weight"
+		},
+		{
+			"descript": "2-position Comfort Recline™ seat is plush and padded with a removable head support. The cushioned foot pillow gives baby extra comfort"
+		},
+		{
+			"descript": "A removable toy bar with two plush toys, and a 6-melodies with volume control and auto shut-off"
+		},
+		{ 
+			"descript": "TrueSpeed™ technology offers six-swings to ensure the motion remains the same even as baby grows"
+		},
+		{ 
+			"descript": "Multiple Timer Settings- Parent can control shut-off time"
+		},
+		{ 
+			"descript": "Music & Sound- Entertains baby with fun sounds and melodies"
+		},
+		{ 
+			"descript": "Quiet Motion- WhisperQuiet™ technology means no unwanted noise"
+		},
+		{ 
+			"descript": "Slip-Resistant- Extra stability for slippery surfaces"
+		}
+   ],
+  "technical": {
+		"weight": 5,
+		"weight_unit": "kg",
+		"dimensions": {
+			"length": 81,
+			"weight": 93,
+			"height": 69
+		},
+		"dimensions_unit": "cm"
+  },
+  "price": 8.00,
+  "currency": "EUR",
+  "rental_period": [
+	{
+		"start_period": "01/04/2022",
+		"end_period":	"03/04/2022"
+	},
+	{
+		"start_period": "05/04/2022",
+		"end_period":	"09/04/2022"
+	}
+  ],
+  "deposit": 25.00,
+  "images": [
+	{
+		"alt": "Bright Starts Swing Comfort and Harmony Elepaloo",
+		"link": "assets/products/BrightStartsSwingHarmonyElepaloo_1.jpg",
+		"title": "Bright Starts Swing Comfort and Harmony Elepaloo"
+	}
+  ]
+},
+{
+  "id": "cangarooJumperoo",
+  "name": "Cangaroo Jumperoo",  
+  "primary_category_id": {
+	"$oid": "623f203842eb4bd451aca91a"
+   },
+  "description": "Cangaroo Jumperoo",
+  "features": [
+		{
+			"descript": "Bungee gives your child a variety of excitement- game with rotating lizard and sun pulling on the hanging toys to play with music panel, sounds and lights of the jungle"
+		},
+		{
+			"descript": "Music panel is equipped with volume buttons, activating lights, sounds and melodies or five minute program to play with a combination of sounds, melodies and lights"
+		},
+		{
+			"descript": "Seat bungee is operable to rotate 360 вЂ‹вЂ‹degrees, and with the help of adjusting straps you can adjust 3 different positions height"
+		},
+		{ 
+			"descript": "Suitable for children over 6 months and weighing up to 12 kilograms and 81 centimeters in height"
+		},
+		{ 
+			"descript": "Use only for a child who can hold his head up without assistance and cannot walk or climb and go out of the product"
+		},
+		{ 
+			"descript": "The product can be used a maximum of 20 minutes per session"
+		},
+		{ 
+			"descript": "The product should be used only under the direct supervision of an adult"
+		}
+   ],
+  "technical": {
+		"weight": 4,
+		"weight_unit": "kg"
+  },
+  "price": 6.00,
+  "currency": "EUR",
+  "rental_period": [],
+  "deposit": 25.00,
+  "images": [
+	{
+		"alt": "Bright Starts Swing Comfort and Harmony Elepaloo",
+		"link": "assets/products/BrightStartsSwingHarmonyElepaloo_1.jpg",
+		"title": "Bright Starts Swing Comfort and Harmony Elepaloo"
+	}
+  ]
+},
+{
+  "id": "britixRomerBabySafe",
+  "name": "Britax Römer Baby Safe plus SHR II Car Seat",  
+  "primary_category_id": {
+	"$oid": "623f203842eb4bd451aca91b"
+   },
+  "description": "Britax Römer Baby Safe plus SHR II Car Seat 0-13 kg",
+  "features": [
+		{
+			"descript": "Rearward facing (0- 13 kg)"
+		},
+		{
+			"descript": "Superior side impact protection – innovative D-SIP® technology"
+		},
+		{
+			"descript": "Easy release – single-handed release from pushchairs"
+		},
+		{ 
+			"descript": "Travel system ready – CLICK & GO® compatible (not included)"
+		},
+		{ 
+			"descript": "Safe harnessing - 5-point harness"
+		},
+		{ 
+			"descript": "Safety with comfort – deep, softly padded side wings"
+		},
+		{ 
+			"descript": "Flexibility built in – adjustable harness, headrest, handle and recline system"
+		},
+		{ 
+			"descript": "Practicality in mind - quick-remove cover, no need to remove harness"
+		}
+   ],
+  "technical": {
+		"weight": 4.7,
+		"weight_unit": "kg"
+  },
+  "price": 9.00,
+  "currency": "EUR",
+  "rental_period": [
+	{
+		"start_period": "06/04/2022",
+		"end_period":	"16/04/2022"
+	}
+  ],
+  "deposit": 20.00,
+  "images": [
+	{
+		"alt": "Britax Römer Baby Safe plus SHR II Car Seat",
+		"link": "assets/products/BritaxRömerBabyCarSeat_1.jpg",
+		"title": "Britax Römer Baby Safe plus SHR II Car Seat"
+	}
+  ]
+},
+{
+  "id": "gracoEvoCarSeat",
+  "name": "Graco Evo Car Seat",  
+  "primary_category_id": {
+	"$oid": "623f203842eb4bd451aca91b"
+   },
+  "description": "Graco Evo Car Seat 0-13 kg",
+  "features": [
+		{
+			"descript": "Graco's Evo Trio Travel System features a Car Seat suitable from birth - 13kgs"
+		},
+		{
+			"descript": "Side impact protection"
+		},
+		{
+			"descript": "Using the base guarantees optimal installation"
+		},
+		{ 
+			"descript": "3 point harness"
+		},
+		{ 
+			"descript": "Rearward facing"
+		}
+   ],
+  "technical": {
+		"weight": 3.9,
+		"weight_unit": "kg",
+		"dimensions": {
+			"length": 44,
+			"weight": 66,
+			"height": 46
+		},
+		"dimensions_unit": "cm"
+  },
+  "price": 8.00,
+  "currency": "EUR",
+  "rental_period": [
+	{
+		"start_period": "06/04/2022",
+		"end_period":	"16/04/2022"
+	},
+	{
+		"start_period": "20/04/2022",
+		"end_period":	"23/04/2022"
+	}
+  ],
+  "deposit": 20.00,
+  "images": [
+	{
+		"alt": "Graco Evo Car Seat",
+		"link": "assets/products/GracoEvoCarSeat_1.jpg",
+		"title": "Graco Evo Car Seat"
+	}
+  ]
+},
+{
+  "id": "britaxVersafix",
+  "name": "Britax Versafix Car Seat with Isofix",  
+  "primary_category_id": {
+	"$oid": "623f203842eb4bd451aca91b"
+   },
+  "description": "Britax Versafix Car Seat with Isofix (9-18kg)",
+  "features": [
+		{
+			"descript": "Forward facing (9- 18 kg) from approx. 9 months to approx. 4 years"
+		},
+		{
+			"descript": "Superior soft padded side impact protection – innovative Pivot Link technology"
+		},
+		{
+			"descript": "Easy release and instalation with Isofix, indicators for correct snapping"
+		},
+		{ 
+			"descript": "Top Tether Extra Protection"
+		},
+		{ 
+			"descript": "3- point isafety belt installation"
+		},
+		{ 
+			"descript": "5- point harness belt"
+		},
+		{ 
+			"descript": "Height adjustable headrest and harness"
+		}
+   ],
+  "technical": {
+		"weight": 8,
+		"weight_unit": "kg",
+		"dimensions": {
+			"length": 67,
+			"weight": 47,
+			"height": 47
+		},		
+		"dimensions_unit": "cm"
+  },
+  "price": 16.00,
+  "currency": "EUR",
+  "rental_period": [
+	{
+		"start_period": "20/04/2022",
+		"end_period":	"24/04/2022"
+	},
+	{
+		"start_period": "01/04/2022",
+		"end_period":	"07/04/2022"
+	}
+  ],
+  "deposit": 20.00,
+  "images": [
+	{
+		"alt": "Britax Versafix Car Seat with Isofix",
+		"link": "assets/products/BritaxVersafixCarSeatIsofix_1.jpg",
+		"title": "Britax Versafix Car Seat with Isofix"
+	}
+  ]
+},
+{
+  "id": "hamaxSmileyRear",
+  "name": "Hamax Smiley Rear Child Bike Seat",  
+  "primary_category_id": {
+	"$oid": "623f203842eb4bd451aca91c"
+   },
+  "description": "Hamax Smiley Rear Child Bike Seat",
+  "features": [
+		{
+			"descript": "Anatomic design for children aged 9 months to 4-5 years, under 22 kg"
+		},
+		{
+			"descript": "Designed for 28-40 mm tubes using a frame attachment mechanism"
+		},
+		{
+			"descript": "Ergonomic shell, space for helmet, comfortable padding and foot rests"
+		}
+   ],
+  "technical": {
+		"weight": 4.2,
+		"weight_unit": "kg",
+		"dimensions": {
+			"length": 74,
+			"weight": 30,
+			"height": 29
+		},		
+		"dimensions_unit": "cm"
+  },
+  "price": 10.00,
+  "currency": "EUR",
+  "rental_period": [],
+  "deposit": 40.00,
+  "images": [
+	{
+		"alt": "Hamax Smiley Rear Child Bike Seat",
+		"link": "assets/products/HamaxSmileyRearChildBikeSeat_1.jpg",
+		"title": "Hamax Smiley Rear Child Bike Seat"
+	}
+  ]
+},
+{
+  "id": "kidsBalanceBike",
+  "name": "Kids 10-inch balance bike BTwin",  
+  "primary_category_id": {
+	"$oid": "623f203842eb4bd451aca91c"
+   },
+  "description": "Kids 10-inch balance bike BTwin",
+  "features": [
+		{
+			"descript": "Designed for children between 2 and 4 years (85- 100 cm)"
+		},
+		{
+			"descript": "Sturdy frame from steel"
+		},
+		{
+			"descript": "Brakes suited to a child's hands"
+		},
+		{
+			"descript": "Easily adjustable saddle"
+		},
+		{
+			"descript": "Kids balance bike without pedals"
+		}
+   ],
+  "technical": {
+		"weight": 3.6,
+		"weight_unit": "kg"
+  },
+  "price": 10.00,
+  "currency": "EUR",
+  "accessories": [
+	{
+		"name": "Bike helmet",
+		"price": 2.00
+	}
+  ],
+  "rental_period": [
+	{
+		"start_period": "20/04/2022",
+		"end_period":	"23/04/2022"
+	}
+  ],
+  "deposit": 15.00,
+  "images": [
+	{
+		"alt": "Kids 10-inch balance bike BTwin",
+		"link": "assets/products/KidsBalanceBikeBTwin_1.jpg",
+		"title": "Kids 10-inch balance bike BTwin"
+	}
+  ]
+},
+{
+  "id": "babymoovAquasoft",
+  "name": "Babymoov Aquasoft Bath Support",  
+  "primary_category_id": {
+	"$oid": "623f203842eb4bd451aca91d"
+   },
+  "description": "Babymoov Aquasoft Bath Support",
+  "features": [
+		{
+			"descript": "Fits all types of bathtubs"
+		},
+		{
+			"descript": "Very comfortable soft cushion"
+		},
+		{
+			"descript": "Stable thanks to its suction cup"
+		}
+   ],
+  "technical": {
+		"dimensions": {
+			"length": 55,
+			"weight": 19,
+			"height": 24
+		},		
+		"dimensions_unit": "cm"
+  },
+  "price": 6.00,
+  "currency": "EUR",
+  "accessories": [
+	{
+		"name": "Bath towel",
+		"price": 1.00
+	}
+  ],
+  "rental_period": [
+	{
+		"start_period": "20/04/2022",
+		"end_period":	"23/04/2022"
+	}
+  ],
+  "deposit": 15.00,
+  "images": [
+	{
+		"alt": "Babymoov Aquasoft Bath Supportv",
+		"link": "assets/products/BabymoovAquasoftBathSupport_1.jpg",
+		"title": "Babymoov Aquasoft Bath Support"
+	}
+  ]
+},
+{
+  "id": "bathTub",
+  "name": "Bath tub OK Baby",  
+  "primary_category_id": {
+	"$oid": "623f203842eb4bd451aca91d"
+   },
+  "description": "",
+  "features": [
+		{
+			"descript": "Wide and spacious"
+		},
+		{
+			"descript": "The seat features an ergonomic design"
+		},
+		{
+			"descript": "Quick drainage plug"
+		},
+		{
+			"descript": "Integral maximum recommended safe water level indicator"
+		},
+		{
+			"descript": "It can be used both in the shower and outdoor"
+		}
+   ],
+  "technical": {
+		"dimensions": {
+			"length": 63,
+			"weight": 41,
+			"height": 61
+		},
+		"dimensions_unit": "cm"
+  },
+  "price": 14.00,
+  "currency": "EUR",
+  "accessories": [
+	{
+		"name": "Bath towel",
+		"price": 1.00
+	}
+  ],
+  "rental_period": [],
+  "deposit": 15.00,
+  "images": [
+	{
+		"alt": "Bath tub OK Baby",
+		"link": "assets/products/BathTubBaby_1.jpg",
+		"title": "Bath tub OK Baby"
+	}
+  ]
+},
+{
+  "id": "ChiccoPocket",
+  "name": "Chicco Pocket Lunch Highchair",  
+  "primary_category_id": {
+	"$oid": "623f203842eb4bd451aca91e"
+   },
+  "description": "",
+  "features": [
+		{
+			"descript": "Large removable padded seat cushion"
+		},
+		{
+			"descript": "Tray has cup holder and integrated crotch post to stop baby sliding down"
+		},
+		{
+			"descript": "Fully adjustable 5-point harness with 2 height settings"
+		},
+		{
+			"descript": "Featuring a large comfortable seat with removable and washable, padded seat insert, the high chair has a 3-position tray and 3-position reclining backrest"
+		},
+		{
+			"descript": "15kg weight capacity; from 6 months to 3 years approx"
+		}
+   ],
+  "technical": {
+		"weight": 6,
+		"weight_unit": "kg",
+		"dimensions": {
+			"length": 54,
+			"weight": 19,
+			"height": 70
+		},
+		"dimensions_unit": "cm"
+  },
+  "price": 8.00,
+  "currency": "EUR",
+  "rental_period": [
+	{
+		"start_period": "10/04/2022",
+		"end_period":	"19/04/2022"
+	}
+  ],
+  "deposit": 40.00,
+  "images": [
+	{
+		"alt": "Chicco Pocket Lunch Highchair",
+		"link": "assets/products/ChiccoPocketLunchHighchair_1.jpg",
+		"title": "Chicco Pocket Lunch Highchair"
+	}
+  ]
+},
+{
+  "id": "babymoovBooster",
+  "name": "Babymoov Booster Seat Almond",  
+  "primary_category_id": {
+	"$oid": "623f203842eb4bd451aca91e"
+   },
+  "description": "",
+  "features": [
+		{
+			"descript": "Foldable and very compact; from 6 kg to 15 kg child weight"
+		},
+		{
+			"descript": "Adjustable to any chair- the front and back feet are independently adjustable"
+		},
+		{
+			"descript": "Very comfortable and easy to clean; the cushion is entirely removable"
+		},
+		{
+			"descript": "Removable table tray"
+		},
+		{
+			"descript": "3 harnesses- 1 for the baby (3-point harness), 1 for the back, 1 for the seat"
+		}
+   ],
+  "technical": {
+		"weight": 2.4,
+		"weight_unit": "kg",
+		"dimensions": {
+			"length": 38,
+			"weight": 36,
+			"height": 39
+		},
+		"dimensions_unit": "cm"
+  },
+  "price": 8.00,
+  "currency": "EUR",
+  "rental_period": [
+	{
+		"start_period": "10/04/2022",
+		"end_period":	"19/04/2022"
+	}
+  ],
+  "deposit": 10.00,
+  "images": [
+	{
+		"alt": "Babymoov Booster Seat Almond",
+		"link": "assets/products/BabymoovBoosterSeatAlmond_1.jpg",
+		"title": "Babymoov Booster Seat Almond"
+	}
+  ]
+},
+{
+  "id": "ikeaHighChair",
+  "name": "IKEA high chair with tray",  
+  "primary_category_id": {
+	"$oid": "623f203842eb4bd451aca91e"
+   },
+  "description": "",
+  "features": [
+		{
+			"descript": "Easy to disassemble and carry"
+		},
+		{
+			"descript": "Raised edges do not allow spilled liquids to reach the floor"
+		},
+		{
+			"descript": "Safety belt and tray included"
+		}
+   ],
+  "technical": {
+		"weight": 3,
+		"weight_unit": "kg",
+		"dimensions": {
+			"length": 62,
+			"weight": 58,
+			"height": 90
+		},
+		"dimensions_unit": "cm"
+  },
+  "price": 6.00,
+  "currency": "EUR",
+  "rental_period": [
+	{
+		"start_period": "20/04/2022",
+		"end_period":	"25/04/2022"
+	},
+	{
+		"start_period": "09/04/2022",
+		"end_period":	"15/04/2022"
+	}
+  ],
+  "deposit": 10.00,
+  "images": [
+	{
+		"alt": "IKEA high chair with tray",
+		"link": "assets/products/IKEAhighChair.jpg",
+		"title": "IKEA high chair with tray"
+	}
+  ]
+}
+]
