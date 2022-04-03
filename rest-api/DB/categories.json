@@ -1,0 +1,148 @@
+[{
+	"id": "stroller",
+	"name": "Stroller",
+	"products": [
+	  {
+		  "$oid": "623a650a8a555e42d15e5c45"
+	  },
+	  {
+		  "$oid": "623a650a8a555e42d15e5c46"
+	  },
+	  {
+		  "$oid": "623a650a8a555e42d15e5c47"
+	  },
+	  {
+		  "$oid": "623a650a8a555e42d15e5c48"
+	  }
+	],
+	"image": {
+		  "alt": "Stroller category",
+		  "link": "assets/categories/stroller.jpg",
+		  "title": "Stroller category"
+	},
+	"parent_category_id": "root"
+  },
+  {
+	  "id": "bed",
+	  "name": "Bed",
+	  "products": [
+		  {
+			  "$oid": "623a650a8a555e42d15e5c49"
+		  },
+		  {
+			  "$oid": "623a650a8a555e42d15e5c4a"
+		  },
+		  {
+			  "$oid": "623a650a8a555e42d15e5c4b"
+		  }		
+	  ],
+	  "image": {
+		  "alt": "Bed category",
+		  "link": "assets/categories/bed.jpg",
+		  "title": "Bed category"
+	  },
+	  "parent_category_id": "root"
+  },
+  {
+	  "id": "toys",
+	  "name": "Toys",
+	  "products": [
+		  {
+			  "$oid": "623a650a8a555e42d15e5c4c"
+		  },
+		  {
+			  "$oid": "623a650a8a555e42d15e5c4d"
+		  },
+		  {
+			  "$oid": "623a650a8a555e42d15e5c4e"
+		  },
+		  {
+			  "$oid": "623a650a8a555e42d15e5c4f"
+		  }
+	  ],
+	  "image": {
+		  "alt": "Toys category",
+		  "link": "assets/categories/toys.jpg",
+		  "title": "Toys category"
+	  },
+	  "parent_category_id": "root"
+  },
+  {
+	  "id": "carSeat",
+	  "name": "Car Seat",
+	  "products": [
+		  {
+			  "$oid": "623a650a8a555e42d15e5c50"
+		  },
+		  {
+			  "$oid": "623a650a8a555e42d15e5c51"
+		  },
+		  {
+			  "$oid": "623a650a8a555e42d15e5c52"
+		  }
+	  ],
+	  "image": {
+		  "alt": "Car Seat category",
+		  "link": "assets/categories/carSeat.jpg",
+		  "title": "Car Seat category"
+	  },
+	  "parent_category_id": "root"
+  },
+  {
+	  "id": "outdoor",
+	  "name": "Outdoor",
+	  "products": [
+		  {
+			  "$oid": "623a650a8a555e42d15e5c53"
+		  },
+		  {
+			  "$oid": "623a650a8a555e42d15e5c54"
+		  }
+	  ],
+	  "image": {
+		  "alt": "Outdoor category",
+		  "link": "assets/categories/outdoor.jpg",
+		  "title": "Outdoor category"
+	  },
+	  "parent_category_id": "root"
+  },
+  {
+	  "id": "bath",
+	  "name": "Bath",
+	  "products": [
+		  {
+			  "$oid": "623a650a8a555e42d15e5c55"
+		  },
+		  {
+			  "$oid": "623a650a8a555e42d15e5c56"
+		  }
+	  ],
+	  "image": {
+		  "alt": "Bath category",
+		  "link": "assets/categories/bath.jpg",
+		  "title": "Bath category"
+	  },
+	  "parent_category_id": "root"
+  },
+  {
+	  "id": "meal",
+	  "name": "Meal",
+	  "products": [
+		  {
+			  "$oid": "623a650a8a555e42d15e5c57"
+		  },
+		  {
+			  "$oid": "623a650a8a555e42d15e5c58"
+		  },
+		  {
+			  "$oid": "623a650a8a555e42d15e5c59"
+		  }
+	  ],
+	  "image": {
+		  "alt": "Meal category",
+		  "link": "assets/categories/meal.jpg",
+		  "title": "Meal category"
+	  },
+	  "parent_category_id": "root"
+  }
+  ]
