@@ -1,0 +1,8 @@
+footer {
+    background: url('/assets/footer_bg.png') no-repeat top left;
+    background-size: auto;
+    background-attachment: scroll;
+}
+.text-muted {
+    font-size: 12px;
+}

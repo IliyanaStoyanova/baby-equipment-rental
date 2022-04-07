@@ -1,0 +1,18 @@
+.color-focus {
+    color: #e23e1d;
+    font-weight: bolder;
+}
+.header-top {
+    background: rgba(245, 245, 245, 1);
+}
+.header-top > div {
+    font-size: 12px;
+    line-height: 40px;
+}
+.contact-icons a {    
+    display: inline-block;
+    margin-right: 20px;
+}
+.contact-icons fa-icon { 
+    margin-right: 2px;
+}

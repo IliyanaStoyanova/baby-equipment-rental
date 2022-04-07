@@ -1,0 +1,26 @@
+.store-support {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 25px 30px 20px 30px;
+    font-size: 14px;
+}
+.style-3 {
+    text-align: center;
+}
+.support-icon {
+    /* flex: 0 0 25%;
+    max-width: 25%; */
+    color: #e23e1d;
+}
+.support-text {
+    flex: 0 0 75%;
+    max-width: 75%;
+}
+.support-text strong {
+    font-weight: 500;
+    color: #191919;
+}
+.support-text p {
+    margin-bottom: 0;
+}
