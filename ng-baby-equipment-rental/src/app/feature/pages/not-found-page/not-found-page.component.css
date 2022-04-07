@@ -1,0 +1,11 @@
+.not-found {
+    max-width: 500px;
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+}
+.not-found h1 {
+    color: #e23e1d;
+    font-weight: 200;
+    font-size: 186px;
+}
