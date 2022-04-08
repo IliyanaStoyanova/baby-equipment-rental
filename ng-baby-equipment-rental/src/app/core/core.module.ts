@@ -7,6 +7,7 @@ import { NavigationComponent } from './header/navigation/navigation.component';
 import { RouterModule } from '@angular/router';
 import { MatMenuModule } from '@angular/material/menu';
 import { SharedModule } from '../shared/shared.module';
+import {MatIconModule} from '@angular/material/icon';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { SharedModule } from '../shared/shared.module';
     CommonModule,
     RouterModule,
     SharedModule,
-    MatMenuModule
+    MatMenuModule,
+    MatIconModule
   ],
   exports: [
     HeaderComponent,

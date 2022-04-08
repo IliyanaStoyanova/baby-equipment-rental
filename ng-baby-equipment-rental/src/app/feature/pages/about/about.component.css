@@ -1,0 +1,22 @@
+.about .heading {
+    text-align: center;
+    color: #e23e1d;
+    padding: 27px 0 15px;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 22px;
+    position: relative;
+    margin: 20px 0 0;
+}
+.about p {
+    text-align: center;
+    padding: 0 120px;
+}
+.accordion-button:not(.collapsed){
+    color: #fff;
+    background-color: #e23e1d;
+}
+.accordion-button:focus {
+    border-color: #e23e1d;
+    box-shadow: none;
+}
