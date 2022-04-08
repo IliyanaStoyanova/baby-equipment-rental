@@ -4,7 +4,7 @@
     background-size: auto;
     display: flex;
     flex-direction: column;
-    min-height: 386px;
+    min-height: 300px;
     justify-content: center;
 }
 .section-work .heading {
@@ -12,7 +12,7 @@
     color: #e23e1d;
     padding: 27px 0 15px;
     font-weight: 400;
-    font-size: 40px;
+    font-size: 30px;
     line-height: 22px;
     position: relative;
     margin: 20px 0 0;

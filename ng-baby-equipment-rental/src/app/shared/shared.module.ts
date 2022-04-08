@@ -5,23 +5,33 @@ import { SocialIconComponent } from './social-icon/social-icon.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { FaIconLibrary } from '@fortawesome/angular-fontawesome';
 import { faFacebookF, faInstagram, faLinkedinIn, faTwitter } from '@fortawesome/free-brands-svg-icons';
-import { faEnvelope, faPhone, faSearch, faUser,faCartShopping, faHeadset, faTruck, faCalendarDays, faBabyCarriage } from '@fortawesome/free-solid-svg-icons';
+import { faEnvelope, faPhone, faSearch, faUser,faCartShopping, faHeadset, faTruck, faCalendarDays, faBabyCarriage, faAngleUp } from '@fortawesome/free-solid-svg-icons';
 import { StoreSupportComponent } from './store-support/store-support.component';
+
+import { GoogleMapsModule } from '@angular/google-maps';
+import { HttpClientModule, HttpClientJsonpModule } from '@angular/common/http';
+import { GoogleMapsComponent } from './google-maps/google-maps.component';
+
 
 @NgModule({
   declarations: [
     SocialIconComponent,
-    StoreSupportComponent
+    StoreSupportComponent,
+    GoogleMapsComponent
   ],
   imports: [
     CommonModule,
     RouterModule,
     FontAwesomeModule,
+    GoogleMapsModule,
+    HttpClientModule,
+    HttpClientJsonpModule
   ],
   exports: [
     SocialIconComponent,
     FontAwesomeModule,
-    StoreSupportComponent
+    StoreSupportComponent,
+    GoogleMapsComponent
   ]
 })
 export class SharedModule { 
@@ -39,7 +49,8 @@ export class SharedModule {
        faHeadset,
        faTruck,
        faCalendarDays,
-       faBabyCarriage
+       faBabyCarriage,
+       faAngleUp
       );
   }
 }

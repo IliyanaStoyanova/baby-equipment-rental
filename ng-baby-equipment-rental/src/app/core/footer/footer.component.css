@@ -6,3 +6,15 @@ footer {
 .text-muted {
     font-size: 12px;
 }
+
+.scroll-top{
+    position: fixed;
+    background-color: #e23e1d;
+    color: #fff;
+    bottom: 50px;
+    right: 50px;
+    cursor: pointer;
+    border: 1px solid #e23e1d;
+    width: 45px;
+    height: 45px;
+  }

@@ -5,6 +5,9 @@
 nav ul li a:hover {
     color: #e23e1d;
 }
+.header-bottom {
+    box-shadow: -1px 3px 5px 0px rgb(0 0 0 / 29%);
+}
 .header-bottom .row {
     height: 100px;
 }

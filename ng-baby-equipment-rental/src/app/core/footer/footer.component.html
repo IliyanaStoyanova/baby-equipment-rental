@@ -1,4 +1,4 @@
-<footer class="align-items-center py-3 my-4 border-top">
+<footer class="align-items-center py-3 border-top">
     <div class="container">
         <div class="row">
             <div class="col-md-6 align-items-center">
@@ -10,3 +10,6 @@
         </div>
     </div>
 </footer>
+<button (click)="scrollToTop()" mat-fab color="warn" *ngIf="pageYoffset > 0" class="scroll-top" aria-label="icon scroll to top" >
+    <fa-icon [icon]="['fas', 'angle-up']"></fa-icon>
+</button>
