@@ -4,7 +4,7 @@ import { HomeComponent } from './home/home.component';
 import { NotFoundPageComponent } from './not-found-page/not-found-page.component';
 import { AboutComponent } from './about/about.component';
 import { SharedModule } from 'src/app/shared/shared.module';
-import { MatButtonModule } from '@angular/material/button';
+import { CategoriesModule } from '../categories/categories.module';
 
 @NgModule({
   declarations: [
@@ -15,7 +15,7 @@ import { MatButtonModule } from '@angular/material/button';
   imports: [
     CommonModule,
     SharedModule,
-    MatButtonModule
+    CategoriesModule
   ]
 })
 export class PagesModule { }

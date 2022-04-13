@@ -1,0 +1,21 @@
+.slider-category ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.slider-category ul li {
+    margin-bottom: 11px;
+    display: block;
+}
+.slider-category h3 {
+    font-size: 14px;
+    font-weight: normal;
+}
+.sidebar-title h3 {
+    font-size: 16px;
+    padding-bottom: 15px;
+}
+.vertical-menu {
+    padding: 10px;
+    border: 1px solid #ebebeb;
+}

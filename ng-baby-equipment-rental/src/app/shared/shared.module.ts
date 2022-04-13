@@ -1,23 +1,23 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { RouterModule } from '@angular/router';
-import { SocialIconComponent } from './social-icon/social-icon.component';
-import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
-import { FaIconLibrary } from '@fortawesome/angular-fontawesome';
-import { faFacebookF, faInstagram, faLinkedinIn, faTwitter } from '@fortawesome/free-brands-svg-icons';
-import { faEnvelope, faPhone, faSearch, faUser,faCartShopping, faHeadset, faTruck, faCalendarDays, faBabyCarriage, faAngleUp } from '@fortawesome/free-solid-svg-icons';
-import { StoreSupportComponent } from './store-support/store-support.component';
-
+import { MatButtonModule } from '@angular/material/button';
+import { FontAwesomeModule, FaIconLibrary } from '@fortawesome/angular-fontawesome';
 import { GoogleMapsModule } from '@angular/google-maps';
 import { HttpClientModule, HttpClientJsonpModule } from '@angular/common/http';
+import { faFacebookF, faInstagram, faLinkedinIn, faTwitter } from '@fortawesome/free-brands-svg-icons';
+import { faEnvelope, faPhone, faSearch, faUser,faCartShopping, faHeadset, faTruck, faCalendarDays, faBabyCarriage, faAngleUp, faArrowRight } from '@fortawesome/free-solid-svg-icons';
+import { StoreSupportComponent } from './store-support/store-support.component';
+import { SocialIconComponent } from './social-icon/social-icon.component';
 import { GoogleMapsComponent } from './google-maps/google-maps.component';
-
+import { CategoriesSidebarComponent } from './categories-sidebar/categories-sidebar.component';
 
 @NgModule({
   declarations: [
     SocialIconComponent,
     StoreSupportComponent,
-    GoogleMapsComponent
+    GoogleMapsComponent,
+    CategoriesSidebarComponent
   ],
   imports: [
     CommonModule,
@@ -25,13 +25,16 @@ import { GoogleMapsComponent } from './google-maps/google-maps.component';
     FontAwesomeModule,
     GoogleMapsModule,
     HttpClientModule,
-    HttpClientJsonpModule
+    HttpClientJsonpModule,
+    MatButtonModule
   ],
   exports: [
     SocialIconComponent,
     FontAwesomeModule,
+    MatButtonModule,
     StoreSupportComponent,
-    GoogleMapsComponent
+    GoogleMapsComponent,
+    CategoriesSidebarComponent
   ]
 })
 export class SharedModule { 
@@ -50,7 +53,8 @@ export class SharedModule {
        faTruck,
        faCalendarDays,
        faBabyCarriage,
-       faAngleUp
+       faAngleUp,
+       faArrowRight
       );
   }
 }

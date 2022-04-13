@@ -1,5 +1,5 @@
 .section-work {
-    background-image: url('/assets/background-work.png');
+    background-image: url('/assets/footer_bg.png');
     background-repeat: repeat;
     background-size: auto;
     display: flex;
@@ -16,17 +16,6 @@
     line-height: 22px;
     position: relative;
     margin: 20px 0 0;
-}
-.heading::after {
-    content: "";
-    position: absolute;
-    left: 0;
-    right: 0;
-    top: -25%;
-    margin: 10px auto;
-    width: 57px;
-    height: 2px;
-    background-color: #e23e1d;
 }
 .work-list {
     margin-left: 30px;

@@ -4,7 +4,8 @@
 
 export const environment = {
   production: false,
-  apiKeyMaps: "AIzaSyC32pEYHR1eIwhndn-KiaofyIb4UroI4Qk"
+  apiKeyMaps: "AIzaSyC32pEYHR1eIwhndn-KiaofyIb4UroI4Qk",
+  apiUrl: "http://localhost:3000/api"
 };
 
 /*
