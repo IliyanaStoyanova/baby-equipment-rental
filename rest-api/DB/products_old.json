@@ -60,12 +60,12 @@
   ],
   "rental_period": [
     {
-      "start_period": "2022/03/18",
-      "end_period": "2022/03/25"
+      "start_period": "18/03/2022",
+      "end_period": "25/03/2022"
     },
     {
-      "start_period": "2022/04/05",
-      "end_period": "2022/04/07"
+      "start_period": "05/04/2022",
+      "end_period": "07/04/2022"
     }
   ],
   "deposit": 40,
@@ -244,20 +244,20 @@
   ],
   "rental_period": [
     {
-      "start_period": "2022/03/15",
-      "end_period": "2022/04/06"
+      "start_period": "15/03/2022",
+      "end_period": "06/04/2022"
     },
     {
-      "start_period": "2022/03/11",
-      "end_period": "2022/03/14"
+      "start_period": "11/03/2022",
+      "end_period": "14/03/2022"
     },
     {
-      "start_period": "2022/04/10",
-      "end_period": "2022/04/15"
+      "start_period": "10/04/2022",
+      "end_period": "15/04/2022"
     },
     {
-      "start_period": "2022/04/18",
-      "end_period": "2022/04/20"
+      "start_period": "18/04/2022",
+      "end_period": "20/04/2022"
     }
   ],
   "deposit": 20,
@@ -345,12 +345,12 @@
   ],
   "rental_period": [
     {
-      "start_period": "2022/03/15",
-      "end_period": "2022/04/06"
+      "start_period": "15/03/2022",
+      "end_period": "06/04/2022"
     },
     {
-      "start_period": "2022/04/10",
-      "end_period": "2022/04/16"
+      "start_period": "10/04/2022",
+      "end_period": "16/04/2022"
     }
   ],
   "deposit": 20,
@@ -518,8 +518,8 @@
   ],
   "rental_period": [
     {
-      "start_period": "2022/04/10",
-      "end_period": "2022/04/13"
+      "start_period": "10/04/2022",
+      "end_period": "13/04/2022"
     }
   ],
   "deposit": 20,
@@ -597,16 +597,16 @@
   ],
   "rental_period": [
     {
-      "start_period": "2022/04/10",
-      "end_period": "2022/04/13"
+      "start_period": "10/04/2022",
+      "end_period": "13/04/2022"
     },
     {
-      "start_period": "2022/04/20",
-      "end_period": "2022/04/25"
+      "start_period": "20/04/2022",
+      "end_period": "25/04/2022"
     },
     {
-      "start_period": "2022/06/21",
-      "end_period": "2022/06/31"
+      "start_period": "21/06/2022",
+      "end_period": "31/06/2022"
     }
   ],
   "deposit": 75,
@@ -668,16 +668,16 @@
   "currency": "EUR",
   "rental_period": [
     {
-      "start_period": "2022/04/10",
-      "end_period": "2022/04/13"
+      "start_period": "10/04/2022",
+      "end_period": "13/04/2022"
     },
     {
-      "start_period": "2022/04/20",
-      "end_period": "2022/04/25"
+      "start_period": "20/04/2022",
+      "end_period": "25/04/2022"
     },
     {
-      "start_period": "2022/06/21",
-      "end_period": "2022/06/31"
+      "start_period": "21/06/2022",
+      "end_period": "31/06/2022"
     }
   ],
   "deposit": 20,
@@ -738,8 +738,8 @@
   "currency": "EUR",
   "rental_period": [
     {
-      "start_period": "2022/04/10",
-      "end_period": "2022/04/13"
+      "start_period": "10/04/2022",
+      "end_period": "13/04/2022"
     }
   ],
   "deposit": 25,
@@ -800,12 +800,12 @@
   "currency": "EUR",
   "rental_period": [
     {
-      "start_period": "2022/04/01",
-      "end_period": "2022/04/03"
+      "start_period": "01/04/2022",
+      "end_period": "03/04/2022"
     },
     {
-      "start_period": "2022/04/04",
-      "end_period": "2022/04/07"
+      "start_period": "05/04/2022",
+      "end_period": "09/04/2022"
     }
   ],
   "deposit": 25,
@@ -908,8 +908,8 @@
   "currency": "EUR",
   "rental_period": [
     {
-      "start_period": "2022/04/06",
-      "end_period": "2022/04/16"
+      "start_period": "06/04/2022",
+      "end_period": "16/04/2022"
     }
   ],
   "deposit": 20,
@@ -961,12 +961,12 @@
   "currency": "EUR",
   "rental_period": [
     {
-      "start_period": "2022/04/06",
-      "end_period": "2022/04/16"
+      "start_period": "06/04/2022",
+      "end_period": "16/04/2022"
     },
     {
-      "start_period": "2022/04/20",
-      "end_period": "2022/04/23"
+      "start_period": "20/04/2022",
+      "end_period": "23/04/2022"
     }
   ],
   "deposit": 20,
@@ -1024,12 +1024,12 @@
   "currency": "EUR",
   "rental_period": [
     {
-      "start_period": "2022/04/20",
-      "end_period": "2022/04/24"
+      "start_period": "20/04/2022",
+      "end_period": "24/04/2022"
     },
     {
-      "start_period": "2022/04/01",
-      "end_period": "2022/04/07"
+      "start_period": "01/04/2022",
+      "end_period": "07/04/2022"
     }
   ],
   "deposit": 20,
@@ -1123,8 +1123,8 @@
   ],
   "rental_period": [
     {
-      "start_period": "2022/04/20",
-      "end_period": "2022/04/23"
+      "start_period": "20/04/2022",
+      "end_period": "23/04/2022"
     }
   ],
   "deposit": 15,
@@ -1174,8 +1174,8 @@
   ],
   "rental_period": [
     {
-      "start_period": "2022/04/20",
-      "end_period": "2022/04/23"
+      "start_period": "20/04/2022",
+      "end_period": "23/04/2022"
     }
   ],
   "deposit": 15,
@@ -1279,8 +1279,8 @@
   "currency": "EUR",
   "rental_period": [
     {
-      "start_period": "2022/04/10",
-      "end_period": "2022/04/19"
+      "start_period": "10/04/2022",
+      "end_period": "19/04/2022"
     }
   ],
   "deposit": 40,
@@ -1332,8 +1332,8 @@
   "currency": "EUR",
   "rental_period": [
     {
-      "start_period": "2022/04/10",
-      "end_period": "2022/04/19"
+      "start_period": "10/04/2022",
+      "end_period": "19/04/2022"
     }
   ],
   "deposit": 10,
@@ -1379,12 +1379,12 @@
   "currency": "EUR",
   "rental_period": [
     {
-      "start_period": "2022/04/20",
-      "end_period": "2022/04/25"
+      "start_period": "20/04/2022",
+      "end_period": "25/04/2022"
     },
     {
-      "start_period": "2022/04/09",
-      "end_period": "2022/04/15"
+      "start_period": "09/04/2022",
+      "end_period": "15/04/2022"
     }
   ],
   "deposit": 10,
