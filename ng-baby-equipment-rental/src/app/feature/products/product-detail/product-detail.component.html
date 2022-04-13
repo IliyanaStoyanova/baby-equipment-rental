@@ -1,0 +1,63 @@
+<div *ngIf="product">
+    <div class="container product-details">
+        <div class="row">
+            <div class="col-lg-4 col-md-6">
+                <img src={{product.images[0].link}}/>
+            </div>
+            <div class="col-lg-7 mt-sm-50">
+                <div class="row product-content">
+                    <h4>{{product.name}}</h4>
+                    <small><a class="set-color" [routerLink]="['/categories', product.categoryId.id]">Back to Category</a></small>
+                    <p *ngIf="product.description">{{product.description}}</p>
+                    <div class="row">
+                        <div class="col-4">
+                            <div class="rent-price">
+                                <span class="price-per-day"><b class="price set-color">{{product.price}} {{product.currency}}</b>/<small>for day</small></span><br>
+                                <span class="deposit set-color">Deposit: {{product.deposit}} {{product.currency}}</span>
+                            </div>
+                        </div>
+                        <div class="col-8">                            
+                            <mat-form-field appearance="fill"  color="warn">
+                                <mat-label>Choose free days</mat-label>
+                                <mat-date-range-input [rangePicker]="picker" [min]="startDate" 
+                                [max]="maxDate" [dateFilter]="rangeFilter">
+                                <input matStartDate readonly>
+                                <input matEndDate readonly>
+                                </mat-date-range-input>
+                                <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
+                                <mat-date-range-picker #picker></mat-date-range-picker>
+                            </mat-form-field>
+                            <button mat-raised-button color="warn">Add to Cart</button>
+                        </div>
+                    </div>
+                    <div *ngIf="product.features" class="features">
+                        <ul>
+                            <ng-container *ngFor="let descr of product.features">
+                                <li>{{descr.descript}}</li>
+                            </ng-container>
+                        </ul>
+                    </div>
+                    <div class="technical">
+                        <h5>Specifications</h5>
+                        <span *ngIf="product.technical.weight"><b>Weight:</b> {{product.technical.weight}} {{product.technical.weight_unit}}</span><br>
+                        <span *ngIf="product.technical.dimensions">
+                            <b>Dimensions:</b>
+                            {{product.technical.dimensions.length}}/
+                            {{product.technical.dimensions.weight}}/
+                            {{product.technical.dimensions.height}} {{product.technical.dimensions_unit}}
+                        </span><br>
+                        <span *ngIf="product.technical.folded">
+                            <b>Folded:</b>
+                            {{product.technical.folded.length}}/
+                            {{product.technical.folded.weight}}/
+                            {{product.technical.folded.height}} {{product.technical.folded_unit}}
+                        </span>
+                    </div>
+                    <div class="instructions">
+                        <span *ngIf="product.instructions"><b>Instructions: </b><a class="set-color" target="_blank" href="{{product.instructions}}">{{product.instructions}}</a></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -16,7 +16,7 @@ import { ProductsModule } from './feature/products/products.module';
     BrowserModule,
     BrowserAnimationsModule,
     AppRoutingModule,
-    CoreModule,
+    CoreModule.forRoot(),
     PagesModule,
     ProductsModule,
   ],

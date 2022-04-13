@@ -1,0 +1,16 @@
+<div class="sidebar">
+    <div class="vertical-menu">
+        <div class="sidebar-title">
+            <h3>Categories</h3>
+        </div>
+        <div class="slider-category col" *ngFor="let item of categories">
+            <ul>
+                <li>
+                    <a [routerLink]="['/categories', item.id]">
+                        <h3>{{item.name}}({{item.products.length}})</h3>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>

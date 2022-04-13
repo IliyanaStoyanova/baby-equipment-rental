@@ -1,0 +1,17 @@
+<div *ngIf="category" class="categories-section container">
+    <div class="row">
+        <div class="col-lg-12 product-categories">
+            <div class="section-title">
+                <h3 class="heading">Categories</h3>
+            </div>            
+        </div>
+    </div>
+    <div class="row categories-item">
+        <div class="single-category col" *ngFor="let item of category">
+            <a [routerLink]="['/categories', item.id]">
+                <img [attr.src] = "item.image.link" [alt]="item.image.alt"/>
+                <h4>{{item.name}}</h4>
+            </a>
+        </div>
+    </div>
+</div>

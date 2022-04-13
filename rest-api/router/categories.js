@@ -1,29 +1,20 @@
-const getDB = require('../database').getDB;
+const express = require('express');
+const router = express.Router();
+// const { auth } = require('../utils');
+const { categoryController } = require('../controllers');
 
-async function getAllCategories(req, res) {
-    const db = getDB();
-    try {
-        const categories = await db.collection("categories").find({}).toArray();
-        res.status(200).json(categories);
-    }catch(e) {
-        res.status(500);
-    }
-}
+// middleware that is specific to this router
 
-async function getCategoryById(req, res) {
-    const db = getDB();
-    const { categoryId } = req.params;
-    try {
-        const categoryById = await db.collection("categories").find({
-            id: categoryId
-        }).toArray();
-        res.status(200).json(categoryById);
-    } catch(e) {
-        res.status(500);
-    }
-}
+router.get('/', categoryController.getCategories);
+// router.post('/', auth(), categoryController.createTheme);
 
-module.exports = {
-    getAllCategories,
-    getCategoryById
-}
+router.get('/:categoryId', categoryController.getCategory);
+router.get('/:categoryId/sort/:sorter', categoryController.getCategorySorter);
+// router.post('/:themeId', auth(), postController.createPost);
+// router.put('/:themeId', auth(), themeController.subscribe);
+// router.put('/:themeId/posts/:postId', auth(), postController.editPost);
+// router.delete('/:themeId/posts/:postId', auth(), postController.deletePost);
+
+// router.get('/my-trips/:id/reservations', auth(), themeController.getReservations);
+
+module.exports = router

@@ -1,0 +1,18 @@
+.single-category {
+    background-color: #f0f2f9;
+    text-align: center;
+    margin: 20px 10px
+}
+.single-category img {
+    max-height: 100px;
+    width: auto;
+    margin: auto;
+}
+.single-category h4 {
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.categories-section .row {
+    flex-wrap: nowrap;
+}
