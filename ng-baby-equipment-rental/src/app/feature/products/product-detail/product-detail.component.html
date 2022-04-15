@@ -27,7 +27,8 @@
                                 <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
                                 <mat-date-range-picker #picker></mat-date-range-picker>
                             </mat-form-field>
-                            <button mat-raised-button color="warn">Add to Cart</button>
+
+                            <button mat-raised-button color="warn" (click)="loginPage()">Add to Cart</button>
                         </div>
                     </div>
                     <div *ngIf="product.features" class="features">

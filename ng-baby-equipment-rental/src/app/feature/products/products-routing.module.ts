@@ -4,11 +4,12 @@ import { ProductPageComponent } from './product-page/product-page.component';
 
 const routes: Routes = [
   {
-    path: 'products',
+    path: '',
+    pathMatch: 'full',
     component: ProductPageComponent
   },
   {
-    path: 'products/:productId',
+    path: ':productId',
     component: ProductDetailComponent
   }
 ];
