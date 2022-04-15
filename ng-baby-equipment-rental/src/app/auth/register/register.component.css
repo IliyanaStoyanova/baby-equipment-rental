@@ -1,0 +1,23 @@
+.register-form button {
+    background-color: #e23e1d;
+    color: #fff;
+    cursor: pointer;
+    border: 1px solid #e23e1d;
+    width: auto;
+}
+.register-section .card-footer a {
+    color: #e23e1d;
+    text-decoration: underline;
+}
+div.error {
+    width: 100%;
+    margin-top: 0.25rem;
+    font-size: .875em;
+    color: #e23e1d;
+}
+.input-error {
+    border: 1px solid #e23e1d;
+}
+div.success {
+    color: #00cc00;
+}

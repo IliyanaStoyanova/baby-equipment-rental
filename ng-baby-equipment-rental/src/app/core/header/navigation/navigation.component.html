@@ -8,7 +8,7 @@
           </a>
       </div>
       </div>
-      <div class="col-lg-8">
+      <div class="col-lg-7">
         <div class="mainmenu">
           <nav class="navbar sticky-top navbar-expand-lg navbar-light">
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -33,26 +33,29 @@
           </nav>
         </div>
       </div>
-      <div class="col-lg-2">
+      <div class="col-lg-3">
         <div class="menu-login">
           <a href="#">
             <fa-icon [icon]="['fas', 'search']"></fa-icon>
           </a>
-          <ng-container>
+          <ng-container *ngIf="(isLoggedIn$ | async)">
            <!-- <a routerLink="/profile" [matMenuTriggerFor]="menu"> -->
-           <a routerLink="/profile" [matMenuTriggerFor]="menu">
-              <fa-icon [icon]="['fas', 'user']"></fa-icon>
+           <a [matMenuTriggerFor]="menu">
+              <fa-icon [icon]="['fas', 'user']"></fa-icon> {{(currentUser$ | async)?.username}}
            </a>
           <!-- </ng-container> -->
            <!-- <ng-container *ngIf="isLogged"> -->
             <mat-menu #menu="matMenu">
               <button mat-menu-item>                
-                <span>My Profile</span>
+                <span><a routerLink="/user/profile">My Profile</a></span>
               </button>
               <button mat-menu-item>
-                <span>Logout</span>
+                <span><a href="javascript:void(0);" (click)="logoutHandler()">Logout</a></span>
               </button>
             </mat-menu>
+          </ng-container>
+          <ng-container *ngIf="!(isLoggedIn$ | async)">
+            <a routerLink="/user/login">Login</a>|<a routerLink="/user/register">Register</a>
           </ng-container>
            <a routerLink="/cart">
               <fa-icon [icon]="['fas', 'cart-shopping']"></fa-icon>
@@ -60,5 +63,14 @@
         </div>
       </div>
     </div> 
+  </div>
+</div>
+<div class="container">
+  <div class="row justify-content-sm-center">
+    <div class="col-xxl-4 col-xl-5 col-lg-5 col-md-7 col-sm-9">
+      <div *ngIf="messageEl" [ngClass]="{'alert-danger': isError, 'alert-success' : !isError}" class="alert mt-3" role="alert">
+        {{messageEl}}
+      </div>
+    </div>
   </div>
 </div>

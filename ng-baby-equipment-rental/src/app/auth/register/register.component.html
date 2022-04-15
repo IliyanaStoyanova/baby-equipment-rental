@@ -1,0 +1,71 @@
+<div class="container register-section">
+    <div class="row justify-content-sm-center">
+        <div class="col-xxl-4 col-xl-5 col-lg-5 col-md-7 col-sm-9">
+            <div class="card shadow-lg my-3">
+                <div class="card-body p-5">
+                    <h1 class="fs-4 card-title fw-bold mb-4">Register</h1>
+                    <form class="register-form" [formGroup]="registerFormGroup" (ngSubmit)="handleRegister()">
+                        <div class="mb-3">
+                            <label class="mb-2 text-muted" for="username">UserName</label>
+                            <input formControlName="username" id="name" type="text" name="username" class="form-control"
+                            [class.input-error]="displayError('username',registerFormGroup)" value="">
+                            <ng-container *ngIf="displayError('username',registerFormGroup)">
+                                <div *ngIf="registerFormGroup.controls['username'].errors?.['required']" class="error">
+                                    Username is required!
+                                </div>
+                                <div *ngIf="registerFormGroup.controls['username'].errors?.['minlength']" class="error">
+                                    Username must be at least 5 characters
+                                </div>
+                            </ng-container>
+                        </div>
+
+                        <div class="mb-3">
+                            <label class="mb-2 text-muted" for="email">E-Mail Address</label>
+                            <input formControlName="email" id="email" type="email" name="email" class="form-control"                            
+                            [class.input-error]="displayError('email',registerFormGroup)" value="">
+                            <ng-container *ngIf="displayError('email',registerFormGroup)">
+                                <div *ngIf="registerFormGroup.controls['email'].errors?.['required']" class="error">
+                                    Email is required!
+                                </div>
+                                <div *ngIf="registerFormGroup.controls['email'].errors?.['email']" class="error">
+                                    Email is not valid!
+                                </div>
+                            </ng-container>                    
+                        </div>
+                        <div formGroupName="passwords">     
+                            <div class="mb-3">
+                                <label class="mb-2 text-muted" for="password">Password</label>
+                                <input formControlName="password" 
+                                [class.input-error]="displayError('password', passwordsGroup)"
+                                id="password" type="password" class="form-control">
+                                <ng-container *ngIf="displayError('password', passwordsGroup)">                
+                                    <div *ngIf="passwordsGroup.controls['password'].errors?.['required']" class="error">
+                                        Password is required!
+                                    </div>
+                                    <div *ngIf="passwordsGroup.controls['password'].errors?.['password']" class="error">
+                                        Password must be at least 8 characters with numbers and letters
+                                    </div>
+                                </ng-container> 
+                            </div>
+                            <div class="mb-3">
+                                <label class="mb-2 text-muted" for="rePassword">rePassword</label>
+                                <input formControlName="rePassword" type="password" name="rePassword" id="rePassword" class="form-control">
+                                <ng-container *ngIf="displayError('rePassword', passwordsGroup)">                
+                                    <div class="error">Repeat Password does not match password!</div>
+                                 </ng-container>
+                            </div>
+                        </div>
+                        <div class="align-items-center d-flex">
+                            <button [disabled]="registerFormGroup.invalid" class="btn ms-auto">Register</button>
+                        </div>
+                    </form>
+                </div>
+                <div class="card-footer py-3 border-0">
+                    <div class="text-center">
+                        Already have an account? <a routerLink="/user/login" class="text-login">Login</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

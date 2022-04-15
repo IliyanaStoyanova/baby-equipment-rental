@@ -1,7 +1,10 @@
 import { Component, OnInit } from '@angular/core';
-import { ActivatedRoute } from '@angular/router';
+import { ActivatedRoute, Router } from '@angular/router';
+import { Observable } from 'rxjs';
+import { AuthService } from 'src/app/auth.service';
 import { IProduct } from 'src/app/core/interfaces';
 import { ProductService } from 'src/app/core/services/product.service';
+import { UserService } from 'src/app/core/services/user.service';
 
 @Component({
   selector: 'app-product-detail',
@@ -14,9 +17,13 @@ export class ProductDetailComponent implements OnInit {
   maxDate: Date;
   blockedDates: [{"start_period": string | Date, "end_period": string | Date}];
 
+  isLoggedIn$: Observable<boolean> = this.authService.isLoggedIn$;
+
   constructor(
     private activatedRoute: ActivatedRoute,
-    private productService: ProductService) { }
+    private productService: ProductService,
+    private authService: AuthService,
+    private router: Router) { }
 
   ngOnInit(): void {
     const currentYear = this.startDate.getFullYear();
@@ -47,4 +54,9 @@ export class ProductDetailComponent implements OnInit {
         date! >= x.start_period && date! <= x.end_period
       );
     };
+
+  loginPage() {
+    if(!this.isLoggedIn$) 
+      this.router.navigate(['/user/login']);
+  }
 } 
