@@ -17,6 +17,7 @@ import { HTTP_INTERCEPTORS } from '@angular/common/http';
 import { AuthInterceptor } from './auth.interceptor';
 import { MessageService } from './services/message.service';
 import { ErrorHandlerInterceptor } from './error-handler.interceptor';
+import { CartService } from './services/cart.service';
 
 @NgModule({
   declarations: [
@@ -49,6 +50,7 @@ export class CoreModule {
         storageServiceProvider,
         ShowErrorService,
         MessageService,
+        CartService,
         {
           provide: HTTP_INTERCEPTORS,
           multi: true,

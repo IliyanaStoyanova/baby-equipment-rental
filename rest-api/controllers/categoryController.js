@@ -11,7 +11,7 @@ function getCategories(req, res, next) {
 
 function getCategory(req, res, next) {
     const { categoryId } = req.params;
-
+    
     categoryModel.findOne({id: categoryId})
         .populate('products')
         .then(category => {
