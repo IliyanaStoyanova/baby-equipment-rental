@@ -4,6 +4,7 @@ const categories = require('./categories');
 const products = require('./products');
 const likes = require('./likes');
 const test = require('./test');
+const carts = require('./carts');
 const { authController } = require('../controllers');
 
 router.post('/register', authController.register);
@@ -15,5 +16,5 @@ router.use('/categories', categories);
 router.use('/products', products);
 router.use('/likes', likes);
 router.use('/test', test);
-
+router.use('/carts', carts);
 module.exports = router;

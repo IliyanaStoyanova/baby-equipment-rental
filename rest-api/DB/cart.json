@@ -1,0 +1,71 @@
+[{
+    "userId": {
+        "$oid": "62589f37afbcd51a34115888"
+    },
+    "products": [
+        {
+           "productId": {
+               "$oid": "6253678bed575f64c9d5e823"
+           },
+           "rental_period": {
+                "start_period": "2022/04/15",
+                "end_period": "2022/04/20"
+           }
+        },
+        { 
+            "productId": {
+                "$oid": "6253678bed575f64c9d5e82b"
+            },
+            "rental_period": {
+                "start_period": "2022/05/8",
+                "end_period": "2022/05/10"
+            }
+        },
+        {
+            "productId": {
+                "$oid": "6253678bed575f64c9d5e82e"
+            },
+            "rental_period": {
+                "start_period": "2022/04/15",
+                "end_period": "2022/04/20"
+            }
+        }
+    ],
+    "created_at": "2022-04-14T22:24:55.874+00:00",
+    "updated_at": "2022-04-15T06:04:14.422+00:00"
+},
+{
+    "userId": {
+        "$oid": "625a1757153e5d38f445c0e5"
+    },
+    "products": [
+        {
+           "productId": {
+               "$oid": "62537576ed575f64c9d5e850"
+           },
+           "rental_period": {
+                "start_period": "2022/04/15",
+                "end_period": "2022/04/20"
+           }
+        },
+        { 
+            "productId": {
+                "$oid": "6253678bed575f64c9d5e833"
+            },
+            "rental_period": {
+                "start_period": "2022/05/8",
+                "end_period": "2022/05/10"
+            }
+        },
+        {
+            "productId": {
+                "$oid": "6253678bed575f64c9d5e835"
+            },
+            "rental_period": {
+                "start_period": "2022/04/15",
+                "end_period": "2022/04/20"
+            }
+        }
+    ],
+    "created_at": "2022-04-14T22:24:55.874+00:00"
+}]

@@ -4,7 +4,6 @@ import { Observable } from 'rxjs';
 import { environment } from 'src/environments/environment';
 import { IUser } from '../interfaces';
 import { StorageService } from './storage.service';
-import { map, tap } from 'rxjs/operators';
 
 export interface CreateUserDto {
   username: string,

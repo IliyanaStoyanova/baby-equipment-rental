@@ -3,8 +3,18 @@ import { ActivatedRoute, Router } from '@angular/router';
 import { Observable } from 'rxjs';
 import { AuthService } from 'src/app/auth.service';
 import { IProduct } from 'src/app/core/interfaces';
+import { CartService } from 'src/app/core/services/cart.service';
 import { ProductService } from 'src/app/core/services/product.service';
-import { UserService } from 'src/app/core/services/user.service';
+
+export interface IUpdateCart {
+  product: {
+    productId: IProduct,
+    rental_period: {
+      start_period: string,
+      end_period: string
+    }
+  }
+}
 
 @Component({
   selector: 'app-product-detail',
@@ -23,7 +33,7 @@ export class ProductDetailComponent implements OnInit {
     private activatedRoute: ActivatedRoute,
     private productService: ProductService,
     private authService: AuthService,
-    private router: Router) { }
+    private cartService: CartService) { }
 
   ngOnInit(): void {
     const currentYear = this.startDate.getFullYear();
@@ -55,8 +65,18 @@ export class ProductDetailComponent implements OnInit {
       );
     };
 
-  loginPage() {
-    if(!this.isLoggedIn$) 
-      this.router.navigate(['/user/login']);
+  addItemToCart(product: IProduct) {
+    let payload: IUpdateCart = {
+      product: {
+        productId: product,
+        rental_period: {
+          start_period: "2022/02/05",
+          end_period: "2022/03/04"
+        }
+      }
+    };
+    this.cartService.addToCart(payload).subscribe(()=>{
+      //TODO
+    });
   }
 } 

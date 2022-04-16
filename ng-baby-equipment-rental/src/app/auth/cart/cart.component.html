@@ -1,0 +1,67 @@
+<div *ngIf="cart" class="cart-section mt-5 mb-5">
+    <div class="card">
+        <div class="row">
+            <div class="col-md-8 cart">
+                <div class="title">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <h4><b>Shopping Cart</b></h4>
+                        </div>
+                        <div class="col-md-6">
+                            <span class="float-end">{{cart.products.length}} items</span>
+                        </div>
+                    </div>
+                </div>
+                <div *ngFor="let product of cart.products" class="row border-top border-bottom">
+                    <a [routerLink]="['/products', product.productId.id]">
+                        <div class="row main align-items-center">
+                            <div class="col-md-2">
+                                <img class="img-fluid" src={{product.productId.images[0].link}} />
+                            </div>
+                            <div class="col-md-2">
+                                <div class="row">{{product.productId.name}}</div>
+                            </div>
+                            <div class="col-md-2">
+                                <span class="d-flex justify-content-center">{{product.productId.price}} {{product.productId.currency}}</span>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <b>Start date:&#10;&#13;</b><span class="date_period">{{product.rental_period.start_period}}</span>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <b>End date:&#10;&#13;</b><span class="date_period">{{product.rental_period.end_period}}</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-2">
+                                <span class="close float-end">&#10005;</span>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="back-to-shop"><a routerLink="/products">&leftarrow;<span class="text-back">Back to shop</span></a></div>
+            </div>
+            <div class="col-md-4 summary">
+                <div>
+                    <h5><b>Summary</b></h5>
+                </div>
+                <hr>
+                <div class="p-2">
+                    <p>Shipping and additional costs are calculated based on values you have entered.</p>
+                    <ul class="list-unstyled">
+                      <li class="d-flex justify-content-between py-3 border-bottom">
+                          <strong class="text-muted">Order Subtotal </strong>
+                      </li>
+                      <li class="d-flex justify-content-between py-3 border-bottom"><strong class="text-muted">Deposit</strong><strong>$10.00</strong></li>
+                      <li class="d-flex justify-content-between py-3 border-bottom"><strong class="text-muted">Shipping</strong><strong>$10.00</strong></li>
+                      <li class="d-flex justify-content-between py-3 border-bottom"><strong class="text-muted">Total</strong>
+                        <h5 class="font-weight-bold">$400.00</h5>
+                      </li>
+                    </ul>
+                    <button class="btn">CHECKOUT</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
