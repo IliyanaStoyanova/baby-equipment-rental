@@ -50,7 +50,7 @@
                 <span><a routerLink="/user/profile">My Profile</a></span>
               </button>
               <button mat-menu-item>
-                <span><a href="javascript:void(0);" (click)="logoutHandler()">Logout</a></span>
+                <span><a (click)="logoutHandler()">Logout</a></span>
               </button>
             </mat-menu>
           </ng-container>
@@ -58,7 +58,8 @@
             <a routerLink="/user/login">Login</a>|<a routerLink="/user/register">Register</a>
           </ng-container>
            <a routerLink="/user/cart">
-              <fa-icon [icon]="['fas', 'cart-shopping']"></fa-icon>
+              <mat-icon [matBadge]="cartTotal" matBadgeColor="warn" matBadgeSize="medium">shopping_cart</mat-icon>
+              <!-- <fa-icon [icon]="['fas', 'cart-shopping']"></fa-icon> -->
            </a>
         </div>
       </div>

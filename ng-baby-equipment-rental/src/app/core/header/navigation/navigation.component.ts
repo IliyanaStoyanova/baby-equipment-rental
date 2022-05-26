@@ -3,6 +3,7 @@ import { Router } from '@angular/router';
 import { Observable, Subscription } from 'rxjs';
 import { AuthService } from 'src/app/auth.service';
 import { IUser } from '../../interfaces';
+import { CartService } from '../../services/cart.service';
 import { MessageService, messageType } from '../../services/message.service';
 
 @Component({
@@ -16,27 +17,37 @@ export class NavigationComponent implements OnInit, OnDestroy {
   isLoggedIn$: Observable<boolean> = this.authService.isLoggedIn$; 
   messageEl: string;
   isError: boolean;
+  cartTotal: number;
 
   private isLoggingOut: boolean = false;
   private subscription: Subscription;
 
-  constructor(private authService: AuthService, private router: Router, private messageService: MessageService) { }
+  constructor(
+    private authService: AuthService, 
+    private router: Router, 
+    private messageService: MessageService,
+    private cartService: CartService) { }
   
   ngOnInit(): void {
     this.subscription = this.messageService.newMessage$.subscribe(newMessage => {
       this.messageEl = newMessage?.text || '';
       this.isError = newMessage?.type === messageType.error;
-      
+
       if(this.messageEl) {
         setTimeout(() => {
           this.messageService.clear();
         }, 5000);
       }
     });
-  }
 
-  ngOnDestroy(): void {
-    this.subscription.unsubscribe();
+    this.cartService.loadCartList().subscribe((item) => {
+      if(item) {
+        this.cartService.setOrderCount(item.products.length);
+      }
+    });
+    this.cartService.getOrderCount().subscribe((orderCount) => {
+      this.cartTotal = orderCount;
+    });
   }
 
   logoutHandler(): void {
@@ -56,5 +67,11 @@ export class NavigationComponent implements OnInit, OnDestroy {
         this.isLoggingOut = false;
       }
     });
+  }
+
+  ngOnDestroy() {
+    if(this.subscription) {
+      this.subscription.unsubscribe();
+    }
   }
 }

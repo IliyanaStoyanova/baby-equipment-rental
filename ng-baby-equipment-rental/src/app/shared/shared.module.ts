@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { RouterModule } from '@angular/router';
 import { MatButtonModule } from '@angular/material/button';
+import {MatBadgeModule} from '@angular/material/badge';
 import { FontAwesomeModule, FaIconLibrary } from '@fortawesome/angular-fontawesome';
 import { GoogleMapsModule } from '@angular/google-maps';
 import { HttpClientModule, HttpClientJsonpModule } from '@angular/common/http';
@@ -26,12 +27,14 @@ import { CategoriesSidebarComponent } from './categories-sidebar/categories-side
     GoogleMapsModule,
     HttpClientModule,
     HttpClientJsonpModule,
-    MatButtonModule
+    MatButtonModule,
+    MatBadgeModule
   ],
   exports: [
     SocialIconComponent,
     FontAwesomeModule,
     MatButtonModule,
+    MatBadgeModule,
     StoreSupportComponent,
     GoogleMapsComponent,
     CategoriesSidebarComponent

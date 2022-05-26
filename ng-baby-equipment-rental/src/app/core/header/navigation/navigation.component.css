@@ -1,6 +1,7 @@
 .menu-login a {
     display: inline-block;
     margin: 0 5px;
+    vertical-align: middle;
 }
 nav ul li a:hover {
     color: #e23e1d;
