@@ -9,6 +9,7 @@ import { ProductListComponent } from './product-list/product-list.component';
 import { ProductPageComponent } from './product-page/product-page.component';
 import { SharedModule } from 'src/app/shared/shared.module';
 import { ProductDetailComponent } from './product-detail/product-detail.component';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,9 @@ import { ProductDetailComponent } from './product-detail/product-detail.componen
   ],
   imports: [
     CommonModule,
-    ProductsRoutingModule,
+    ProductsRoutingModule,    
+    FormsModule,
+    ReactiveFormsModule,
     SharedModule,
     MatDatepickerModule,
     MatFormFieldModule,

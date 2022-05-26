@@ -5,4 +5,5 @@ const { auth } = require('../utils');
 
 router.get('/', auth(), cartController.getCartUserInfo);
 router.post('/', auth(), cartController.addToCart);
+router.delete('/:productId', auth(), cartController.deleteProductCart);
 module.exports = router

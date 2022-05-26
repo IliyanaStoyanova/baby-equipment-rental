@@ -63,9 +63,13 @@
 
 .cart-section .close {
     margin-left: auto;
-    font-size: 0.7rem
+    font-size: 0.7rem;
+    cursor: pointer;
 }
-
+.cart-section .close:hover {
+    color: #e23e1d;
+    font-weight: bolder;
+}
 .cart-section img {
     width: 3.5rem
 }
